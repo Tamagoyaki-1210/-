@@ -28,12 +28,10 @@ CSound::SOUNDPARAM CSound::m_aParam[SOUND_LABEL_MAX] =
 	{ "data/BGM/ステージ3.wav", -1 },						// BGM5
 	{ "data/BGM/ステージ4.wav", -1 },						// BGM6
 	{ "data/BGM/ボス.wav", -1 },							// BGM7
-	{ "data/BGM/警告音.wav", -1 },							// BGM8
 	{ "data/BGM/連続爆発.wav", -1 },						// BGM9
 	{ "data/SE/選択音/選択SE.wav", 0 },						// SE0
 	{ "data/SE/決定音/決定SE.wav", 0 },						// SE1
 	{ "data/SE/キャンセル音/キャンセルSE.wav", 0 },			// SE2
-	{ "data/SE/歯車/歯車・回転止まる.wav", 0 },				// SE3
 	{ "data/SE/ポーズ音/笛・開始.wav", 0 },					// SE4
 	{ "data/SE/ポーズ音/笛・停止.wav", 0 },					// SE5
 	{ "data/SE/ポーズ音/笛・終了.wav", 0 },					// SE6

@@ -40,7 +40,7 @@ HRESULT CApplication::Init(HINSTANCE hInstance, HWND hWnd)
 {
 	m_pRenderer = new CRenderer;
 	// true : ウィンドウサイズ, false : 全画面
-	if (FAILED(m_pRenderer->Init(hWnd, true)))
+	if (FAILED(m_pRenderer->Init(hWnd, false)))
 	{
 		return -1;
 	}

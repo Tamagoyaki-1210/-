@@ -168,7 +168,6 @@ void CMode::SetMode()
 			break;
 		case Stage_4:
 			CSound::StopSound(SOUND_LABEL_BGM_STAGE4);
-			CSound::StopSound(SOUND_LABEL_BGM_ERROR);
 			break;
 		case Stage_Boss:
 			CSound::StopSound(SOUND_LABEL_BGM_BOSS);

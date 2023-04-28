@@ -684,7 +684,6 @@ void CStage::ArrayStage()
 		if (m_nGameTimer % STAGE_4_WIDTH >= STAGE_4_WIDTH - 200)
 		{
 			BlinkStage();
-			CSound::PlaySound(SOUND_LABEL_BGM_ERROR);
 		}
 		if (m_nGameTimer == STAGE_4_WIDTH)
 		{
@@ -842,7 +841,6 @@ void CStage::ChangeStage()
 		//(îí)
 		m_pBG->SetColor(D3DXCOLOR(1.0f, 1.0f, 1.0f, 0.8f), D3DXCOLOR(1.0f, 1.0f, 1.0f, 0.6f), D3DXCOLOR(1.0f, 1.0f, 1.0f, 0.6f), D3DXCOLOR(1.0f, 1.0f, 1.0f, 0.4f));
 		CSound::StopSound(SOUND_LABEL_BGM_STAGE4);
-		CSound::StopSound(SOUND_LABEL_BGM_ERROR);
 		break;
 	case Stage_Boss:
 		//(É{ÉXóp)
