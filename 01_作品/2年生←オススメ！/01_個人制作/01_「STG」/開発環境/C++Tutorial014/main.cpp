@@ -5,19 +5,24 @@
 //
 //=============================================================================
 //*****************************************************************************
-// インクルード
-//*****************************************************************************
-#include "main.h"
-#include "application.h"
-#include <Windows.h>
-#include <tchar.h> // _T
-
-//*****************************************************************************
 // ライブラリーリンク
 //*****************************************************************************
 #pragma comment(lib,"d3d9.lib")
 #pragma comment(lib,"d3dx9.lib")
 #pragma comment(lib,"winmm.lib")
+
+//*****************************************************************************
+// インクルード
+//*****************************************************************************
+#include <Windows.h>
+#include <tchar.h> // _T
+#include "main.h"
+#include "application.h"
+
+#ifdef _DEBUG
+#define _CRTDBG_MAP_ALLOC
+#include <crtdbg.h>
+#endif
 
 //*****************************************************************************
 // 定数定義
@@ -53,6 +58,10 @@ static bool s_bExit;
 //=============================================================================
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE/* hPrevInstance*/, LPSTR /*lpCmdLine*/, int nCmdShow)
 {
+#ifdef _DEBUG
+	// メモリリーク検出
+	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
+#endif // _DEBUG
 	WNDCLASSEX wcex =
 	{
 		sizeof(WNDCLASSEX),

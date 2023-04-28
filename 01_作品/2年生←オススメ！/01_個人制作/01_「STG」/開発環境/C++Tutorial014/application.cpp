@@ -86,14 +86,6 @@ void CApplication::Uninit()
 		m_pInput = nullptr;
 	}
 
-	// レンダリング
-	if (m_pRenderer != nullptr)
-	{
-		m_pRenderer->Uninit();
-		delete m_pRenderer;
-		m_pRenderer = nullptr;
-	}
-
 	// モード
 	if (m_pMode != nullptr)
 	{
@@ -109,6 +101,14 @@ void CApplication::Uninit()
 		m_pSound->Uninit();
 		delete m_pSound;
 		m_pSound = nullptr;
+	}
+
+	// レンダリング
+	if (m_pRenderer != nullptr)
+	{
+		m_pRenderer->Uninit();
+		delete m_pRenderer;
+		m_pRenderer = nullptr;
 	}
 }
 

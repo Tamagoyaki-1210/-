@@ -83,7 +83,12 @@ void CStage::Init()
 //=====================================
 void CStage::Uninit()
 {
-
+	if (m_pBG != nullptr)
+	{
+		m_pBG->Release();
+		m_pBG = nullptr;
+	}
+	delete this;
 }
 
 //=====================================
