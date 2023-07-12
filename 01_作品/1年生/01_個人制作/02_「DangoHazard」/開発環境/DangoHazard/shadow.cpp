@@ -174,6 +174,9 @@ void DrawShadow(void)
 	pDevice->SetRenderState(D3DRS_BLENDOP, D3DBLENDOP_ADD);
 	pDevice->SetRenderState(D3DRS_SRCBLEND, D3DBLEND_SRCALPHA);
 	pDevice->SetRenderState(D3DRS_DESTBLEND, D3DBLEND_INVSRCALPHA);
+
+	//テクスチャの初期化(バグ修正_2023/7/12)
+	pDevice->SetTexture(0, NULL);
 }
 
 //============================================================================

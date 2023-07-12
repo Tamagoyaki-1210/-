@@ -15,8 +15,8 @@
 #include "player.h"			//作成したplayer.hをインクルードする
 #include "model.h"			//作成したmodel.hをインクルードする
 #include "shadow.h"			//作成したshadow.hをインクルードする
-#include "wall.h"			//作成したwall.hをインクルードする
-#include "billboard.h"		//作成したbillboard.hをインクルードする
+//#include "wall.h"			//作成したwall.hをインクルードする
+//#include "billboard.h"		//作成したbillboard.hをインクルードする
 #include "meshfield.h"		//作成したmeshfield.hをインクルードする
 #include "meshcylinder.h"	//作成したmeshcylinder.hをインクルードする
 #include "effect.h"			//作成したeffect.hをインクルードする
@@ -35,7 +35,6 @@
 //****************************************************************************
 LPDIRECT3DTEXTURE9 g_pTextureGame = NULL;			//テクスチャへのポインタ
 LPDIRECT3DVERTEXBUFFER9 g_pVtxBuffGame = NULL;		//頂点バッファへのポインタ
-Game g_aGame;										//ゲーム画面の情報
 
 GAMESTATE g_gameState = GAMESTATE_NONE;				//ゲームの状態
 int g_nCounterGameState = 0;						//状態管理カウンター
@@ -109,6 +108,10 @@ void UninitGame(void)
 		g_pVtxBuffGame->Release();
 		g_pVtxBuffGame = NULL;
 	}
+
+	g_nCounterGameState = 0;
+	g_SetItemCounter = 0;
+	g_SetEnemyCounter = 0;
 }
 
 //============================================================================

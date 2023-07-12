@@ -222,4 +222,6 @@ void DrawTitle(void)
 			2						//プリミティブアイコンの個数
 		);
 	}
+	//テクスチャの初期化(バグ修正_2023/7/12)
+	pDevice->SetTexture(0, NULL);
 }

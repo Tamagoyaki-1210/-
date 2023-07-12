@@ -179,4 +179,7 @@ void DrawPolygon(void)
 
 	//ポリゴンの描画
 	pDevice->DrawPrimitive(D3DPT_TRIANGLESTRIP, 0, 2);
+
+	//テクスチャの初期化(バグ修正_2023/7/12)
+	pDevice->SetTexture(0, NULL);
 }

@@ -160,6 +160,17 @@ void UninitPlayer(void)
 			g_aPlayer.aParts[nCntPlayerParts].pBuffMat->Release();
 			g_aPlayer.aParts[nCntPlayerParts].pBuffMat = NULL;
 		}
+
+		// xモデルの使用テクスチャを全て解放する(メモリリーク修正_2023/7/12)
+		for (int nMatTex = 0; nMatTex < PLAYER_TYPE_MAX; nMatTex++)
+		{
+			//テクスチャの破棄
+			if (g_aPlayer.aParts[nCntPlayerParts].g_pTexture[nMatTex] != NULL)
+			{
+				g_aPlayer.aParts[nCntPlayerParts].g_pTexture[nMatTex]->Release();
+				g_aPlayer.aParts[nCntPlayerParts].g_pTexture[nMatTex] = NULL;
+			}
+		}
 	}
 }
 
@@ -915,6 +926,9 @@ void DrawPlayer(void)
 				g_aPlayer.aParts[nCntPlayerParts].pMesh->DrawSubset(nCntMat);
 			}
 		}
+		//テクスチャの初期化(バグ修正_2023/7/12)
+		pDevice->SetTexture(0, NULL);
+
 		//保持してたマテリアルを戻す
 		pDevice->SetMaterial(&matDef);
 	}

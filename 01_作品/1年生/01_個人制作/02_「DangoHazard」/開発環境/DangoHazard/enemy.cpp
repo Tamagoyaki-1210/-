@@ -183,6 +183,17 @@ void UninitEnemy(void)
 				g_aX_Enemy[nCntImgEnemy].pBuffMat->Release();
 				g_aX_Enemy[nCntImgEnemy].pBuffMat = NULL;
 			}
+
+			// xモデルの使用テクスチャを全て解放する(メモリリーク修正_2023/7/12)
+			for (int nMatTex = 0; nMatTex < ENEMY_TYPE_MAX; nMatTex++)
+			{
+				//テクスチャの破棄
+				if (g_aX_Enemy[nCntImgEnemy].g_pTexture[nMatTex] != NULL)
+				{
+					g_aX_Enemy[nCntImgEnemy].g_pTexture[nMatTex]->Release();
+					g_aX_Enemy[nCntImgEnemy].g_pTexture[nMatTex] = NULL;
+				}
+			}
 		}
 	}
 }
@@ -788,6 +799,9 @@ void DrawEnemy(void)
 					g_aX_Enemy[g_aEnemy[nCntEnemy].type].pMesh->DrawSubset(nCntMat);
 				}
 			}
+			//テクスチャの初期化(バグ修正_2023/7/12)
+			pDevice->SetTexture(0, NULL);
+
 			//保持してたマテリアルを戻す
 			pDevice->SetMaterial(&matDef);
 		}
