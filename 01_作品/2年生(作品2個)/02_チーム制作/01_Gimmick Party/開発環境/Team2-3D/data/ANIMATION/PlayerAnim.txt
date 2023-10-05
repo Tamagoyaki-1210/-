@@ -1,0 +1,887 @@
+#==============================================================================
+#
+# アニメーションスクリプト [motion.txt]
+# Author : Ricci Alex
+#
+#==============================================================================
+
+#==============================================================================
+#モーション情報
+#==============================================================================
+
+#---------------------------------------
+# ニュートラルモーション
+#---------------------------------------
+MOTION_SET					#アニメーション 0
+	NEXT = 0				#ループする場合、アニメーションの番号を入力して下さい。ループしない場合、次のアニメーションの番号を入力して下さい。
+		KEY_SET				#KeySet 0/2	
+			FRAME = 30
+			
+			KEY			#Key 0
+				POS = 0.0 17.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 1
+				POS = 0.0 7.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 2
+				POS = 8.0 3.0 0.0
+				ROT = 0.0 0.0 -0.5
+			END_KEY
+			
+			KEY			#Key 3
+				POS = 9.0 0.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 4
+				POS = -8.0 3.0 0.0
+				ROT = 0.0 0.0 0.5
+			END_KEY
+			
+			KEY			#Key 5
+				POS = -9.0 0.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 6
+				POS = 3.0 -9.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 7
+				POS = 0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 8
+				POS = -3.0 -9.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 9
+				POS = -0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY		
+		END_KEY_SET
+		
+		KEY_SET				#KeySet 1/2	
+			FRAME = 30
+			
+			KEY			#Key 0
+				POS = 0.0 17.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 1
+				POS = 0.0 7.0 0.0
+				ROT = -0.1 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 2
+				POS = 8.0 3.0 0.0
+				ROT = 0.0 0.5 -1.0
+			END_KEY
+			
+			KEY			#Key 3
+				POS = 9.0 0.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 4
+				POS = -8.0 3.0 0.0
+				ROT = 0.0 -0.5 1.0
+			END_KEY
+			
+			KEY			#Key 5
+				POS = -9.0 0.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 6
+				POS = 3.0 -9.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 7
+				POS = 0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 8
+				POS = -3.0 -9.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 9
+				POS = -0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY			
+		END_KEY_SET
+END_MOTION_SET
+
+#---------------------------------------
+# ランニングモーション
+#---------------------------------------
+MOTION_SET					#アニメーション 1
+	NEXT = 0				#ループする場合、アニメーションの番号を入力して下さい。ループしない場合、次のアニメーションの番号を入力して下さい。
+		KEY_SET				#KeySet 0/2		
+			FRAME = 30
+			
+			KEY			#Key 0
+				POS = 0.0 17.0 0.0
+				ROT = 0.0 0.0 0.5
+			END_KEY
+			
+			KEY			#Key 1
+				POS = 0.0 7.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 2
+				POS = 8.0 3.0 0.0
+				ROT = 0.7 0.0 -1.5
+			END_KEY
+			
+			KEY			#Key 3
+				POS = 9.0 0.0 0.0
+				ROT = 0.0 -0.3 0.0
+			END_KEY
+			
+			KEY			#Key 4
+				POS = -8.0 3.0 0.0
+				ROT = -0.7 0.0 1.5
+			END_KEY
+			
+			KEY			#Key 5
+				POS = -9.0 0.0 0.0
+				ROT = 0.0 -0.3 0.0
+			END_KEY
+			
+			KEY			#Key 6
+				POS = 3.0 -9.0 0.0
+				ROT = -0.5 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 7
+				POS = 0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 8
+				POS = -3.0 -9.0 0.0
+				ROT = 0.5 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 9
+				POS = -0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY		
+		END_KEY_SET	
+		
+		KEY_SET				#KeySet 1/2		
+			FRAME = 30
+			
+			KEY			#Key 0
+				POS = 0.0 17.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 1
+				POS = 0.0 7.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 2
+				POS = 8.0 3.0 0.0
+				ROT = -0.7 0.0 -1.5
+			END_KEY
+			
+			KEY			#Key 3
+				POS = 9.0 0.0 0.0
+				ROT = 0.0 0.3 0.0
+			END_KEY
+			
+			KEY			#Key 4
+				POS = -8.0 3.0 0.0
+				ROT = 0.7 0.0 1.5
+			END_KEY
+			
+			KEY			#Key 5
+				POS = -9.0 0.0 0.0
+				ROT = 0.0 0.3 0.0
+			END_KEY
+			
+			KEY			#Key 6
+				POS = 3.0 -9.0 0.0
+				ROT = 0.5 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 7
+				POS = 0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 8
+				POS = -3.0 -9.0 0.0
+				ROT = -0.5 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 9
+				POS = -0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY		
+		END_KEY_SET
+END_MOTION_SET
+
+#---------------------------------------
+# ジャンプモーション
+#---------------------------------------
+MOTION_SET					#アニメーション 2
+	NEXT = 0				#ループする場合、アニメーションの番号を入力して下さい。ループしない場合、次のアニメーションの番号を入力して下さい。
+		KEY_SET				#KeySet 0/2	
+			FRAME = 10
+			
+			KEY			#Key 0
+				POS = 0.0 50.0 0.0
+				ROT = 4.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 1
+				POS = 0.0 7.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 2
+				POS = 8.0 3.0 0.0
+				ROT = 0.0 -1.5 1.6
+			END_KEY
+			
+			KEY			#Key 3
+				POS = 9.0 0.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 4
+				POS = -8.0 3.0 0.0
+				ROT = 0.0 1.5 -1.6
+			END_KEY
+			
+			KEY			#Key 5
+				POS = -9.0 0.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 6
+				POS = 3.0 -9.0 0.0
+				ROT = -1.3 0.4 0.0
+			END_KEY
+			
+			KEY			#Key 7
+				POS = 0.1 -5.0 0.0
+				ROT = -0.8 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 8
+				POS = -3.0 -9.0 0.0
+				ROT = -1.3 -0.4 0.0
+			END_KEY
+			
+			KEY			#Key 9
+				POS = -0.1 -5.0 0.0
+				ROT = -0.8 0.0 0.0
+			END_KEY					
+		END_KEY_SET	
+		
+		KEY_SET				#KeySet 1/2	
+			FRAME = 20
+			
+			KEY			#Key 0
+				POS = 0.0 17.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 1
+				POS = 0.0 7.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 2
+				POS = 8.0 3.0 0.0
+				ROT = 0.0 0.0 -0.5
+			END_KEY
+			
+			KEY			#Key 3
+				POS = 9.0 0.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 4
+				POS = -8.0 3.0 0.0
+				ROT = 0.0 0.0 0.5
+			END_KEY
+			
+			KEY			#Key 5
+				POS = -9.0 0.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 6
+				POS = 3.0 -9.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 7
+				POS = 0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 8
+				POS = -3.0 -9.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 9
+				POS = -0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+		END_KEY_SET
+END_MOTION_SET
+
+#---------------------------------------
+# パンチモーション
+#---------------------------------------
+MOTION_SET					#アニメーション 3
+
+	NEXT = 0				#ループする場合、アニメーションの番号を入力して下さい。ループしない場合、次のアニメーションの番号を入力して下さい。
+	
+		KEY_SET				#KeySet 0/3
+		
+			FRAME = 5
+			
+			KEY			#Key 0
+				POS = 0.0 17.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 1
+				POS = 0.0 7.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 2
+				POS = 8.0 3.0 0.0
+				ROT = 0.0 1.5 0.0
+			END_KEY
+			
+			KEY			#Key 3
+				POS = 9.0 0.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 4
+				POS = -8.0 3.0 0.0
+				ROT = 0.0 -1.5 0.0
+			END_KEY
+			
+			KEY			#Key 5
+				POS = -9.0 0.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 6
+				POS = 3.0 -9.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 7
+				POS = 0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 8
+				POS = -3.0 -9.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 9
+				POS = -0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+		END_KEY_SET
+		
+		KEY_SET				#KeySet 1/3
+		
+			FRAME = 7
+			
+			KEY			#Key 0
+				POS = 0.0 17.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 1
+				POS = 0.0 7.0 0.0
+				ROT = -0.1 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 2
+				POS = 8.0 3.0 0.0
+				ROT = 0.0 1.5 0.0
+			END_KEY
+			
+			KEY			#Key 3
+				POS = 19.0 0.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 4
+				POS = -8.0 3.0 0.0
+				ROT = 0.0 -1.5 0.0
+			END_KEY
+			
+			KEY			#Key 5
+				POS = -19.0 0.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 6
+				POS = 3.0 -9.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 7
+				POS = 0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 8
+				POS = -3.0 -9.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 9
+				POS = -0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY	
+				
+		END_KEY_SET
+
+		KEY_SET				#KeySet 2/3
+		
+			FRAME = 7
+			
+			KEY			#Key 0
+				POS = 0.0 17.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 1
+				POS = 0.0 7.0 0.0
+				ROT = -0.1 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 2
+				POS = 8.0 3.0 0.0
+				ROT = 0.0 1.5 0.0
+			END_KEY
+			
+			KEY			#Key 3
+				POS = 14.0 0.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 4
+				POS = -8.0 3.0 0.0
+				ROT = 0.0 -1.5 0.0
+			END_KEY
+			
+			KEY			#Key 5
+				POS = -14.0 0.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 6
+				POS = 3.0 -9.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 7
+				POS = 0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 8
+				POS = -3.0 -9.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 9
+				POS = -0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY	
+		END_KEY_SET
+
+END_MOTION_SET
+
+#---------------------------------------
+# ダメージモーション
+#---------------------------------------
+MOTION_SET					#アニメーション 4
+
+	NEXT = 0				#ループする場合、アニメーションの番号を入力して下さい。ループしない場合、次のアニメーションの番号を入力して下さい。
+	
+		KEY_SET				#KeySet 0/2
+		
+			FRAME = 10
+			
+			KEY			#Key 0
+				POS = 0.0 17.0 0.0
+				ROT = 0.3 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 1
+				POS = 0.0 7.0 0.0
+				ROT = 0.2 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 2
+				POS = 8.0 3.0 0.0
+				ROT = 0.0 0.0 1.4
+			END_KEY
+			
+			KEY			#Key 3
+				POS = 9.0 0.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 4
+				POS = -8.0 3.0 0.0
+				ROT = 0.0 0.0 -1.5
+			END_KEY
+			
+			KEY			#Key 5
+				POS = -9.0 0.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 6
+				POS = 3.0 -9.0 0.0
+				ROT = 0.0 0.0 0.4
+			END_KEY
+			
+			KEY			#Key 7
+				POS = 0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 8
+				POS = -3.0 -9.0 0.0
+				ROT = 0.0 0.0 -0.4
+			END_KEY
+			
+			KEY			#Key 9
+				POS = -0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY	
+		END_KEY_SET
+		
+		KEY_SET				#KeySet 1/2
+		
+			FRAME = 50
+			
+			KEY			#Key 0
+				POS = 0.0 17.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 1
+				POS = 0.0 7.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 2
+				POS = 8.0 3.0 0.0
+				ROT = 0.0 0.0 -0.5
+			END_KEY
+			
+			KEY			#Key 3
+				POS = 9.0 0.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 4
+				POS = -8.0 3.0 0.0
+				ROT = 0.0 0.0 0.5
+			END_KEY
+			
+			KEY			#Key 5
+				POS = -9.0 0.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 6
+				POS = 3.0 -9.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 7
+				POS = 0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 8
+				POS = -3.0 -9.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 9
+				POS = -0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY	
+				
+		END_KEY_SET
+		
+END_MOTION_SET
+		
+#---------------------------------------
+# 勝利モーション
+#---------------------------------------
+MOTION_SET					#アニメーション 5
+
+	NEXT = 5				#ループする場合、アニメーションの番号を入力して下さい。ループしない場合、次のアニメーションの番号を入力して下さい。
+	
+		KEY_SET				#KeySet 0/2
+		
+			FRAME = 30
+			
+			KEY			#Key 0
+				POS = 0.0 0.0 0.0
+				ROT = 4.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 1
+				POS = 0.0 7.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 2
+				POS = 8.0 3.0 0.0
+				ROT = 0.0 0.0 1.2
+			END_KEY
+			
+			KEY			#Key 3
+				POS = 9.0 0.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 4
+				POS = -8.0 3.0 0.0
+				ROT = 0.0 0.0 -1.2
+			END_KEY
+			
+			KEY			#Key 5
+				POS = -9.0 0.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 6
+				POS = 3.0 -9.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 7
+				POS = 0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 8
+				POS = -3.0 -9.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 9
+				POS = -0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY					
+		END_KEY_SET	
+		
+		KEY_SET				#KeySet 1/2	
+			FRAME = 30
+			
+			KEY			#Key 0
+				POS = 0.0 17.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 1
+				POS = 0.0 7.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 2
+				POS = 8.0 3.0 0.0
+				ROT = 0.0 0.0 0.8
+			END_KEY
+			
+			KEY			#Key 3
+				POS = 9.0 0.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 4
+				POS = -8.0 3.0 0.0
+				ROT = 0.0 0.0 -0.8
+			END_KEY
+			
+			KEY			#Key 5
+				POS = -9.0 0.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 6
+				POS = 3.0 -9.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 7
+				POS = 0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 8
+				POS = -3.0 -9.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+			
+			KEY			#Key 9
+				POS = -0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY	
+				
+		END_KEY_SET
+
+END_MOTION_SET
+
+#---------------------------------------
+# 敗北モーション
+#---------------------------------------
+MOTION_SET					#アニメーション 6
+
+	NEXT = 6				#ループする場合、アニメーションの番号を入力して下さい。ループしない場合、次のアニメーションの番号を入力して下さい。
+	
+		KEY_SET				#KeySet 0/2
+		
+			FRAME = 30
+			
+			KEY			#Key 0
+				POS = 0.0 17.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+
+			KEY			#Key 1
+				POS = 0.0 7.0 0.0
+				ROT = -0.5 0.0 0.0
+			END_KEY
+
+			KEY			#Key 2
+				POS = 8.0 3.0 0.0
+				ROT = -1.0 0.0 1.8
+			END_KEY
+
+			KEY			#Key 3
+				POS = 9.0 0.0 0.0
+				ROT = 0.0 0.0 0.3
+			END_KEY
+
+			KEY			#Key 4
+				POS = -8.0 3.0 0.0
+				ROT = -1.0 0.0 -1.8
+			END_KEY
+
+			KEY			#Key 5
+				POS = -9.0 0.0 0.0
+				ROT = 0.0 0.0 -0.3
+			END_KEY
+
+			KEY			#Key 6
+				POS = 3.0 -9.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+
+			KEY			#Key 7
+				POS = 0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+
+			KEY			#Key 8
+				POS = -3.0 -9.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+
+			KEY			#Key 9
+				POS = -0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+		END_KEY_SET	
+		
+		KEY_SET				#KeySet 1/2	
+			FRAME = 30
+			
+			KEY			#Key 0
+				POS = 0.0 17.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+
+			KEY			#Key 1
+				POS = 0.0 7.00 0.0
+				ROT = -0.3 0.0 0.0
+			END_KEY
+
+			KEY			#Key 2
+				POS = 8.0 3.0 0.0
+				ROT = -1.0 0.0 1.8
+			END_KEY
+
+			KEY			#Key 3
+				POS = 9.0 0.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+
+			KEY			#Key 4
+				POS = -8.0 3.0 0.0
+				ROT = -1.0 0.0 -1.8
+			END_KEY
+
+			KEY			#Key 5
+				POS = -9.0 0.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+
+			KEY			#Key 6
+				POS = 3.0 -9.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+
+			KEY			#Key 7
+				POS = 0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+
+			KEY			#Key 8
+				POS = -3.0 -9.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY
+
+			KEY			#Key 9
+				POS = -0.1 -5.0 0.0
+				ROT = 0.0 0.0 0.0
+			END_KEY	
+				
+		END_KEY_SET
+
+END_MOTION_SET
+
+END_SCRIPT				#絶対消さないで下さい。

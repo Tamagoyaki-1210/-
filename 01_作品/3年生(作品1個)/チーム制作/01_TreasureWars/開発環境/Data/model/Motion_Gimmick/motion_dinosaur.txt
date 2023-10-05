@@ -1,0 +1,283 @@
+#==============================================================================
+#
+# 『モーションビューワ』スクリプトファイル [motion.txt]
+# Author : AKIRA TANAKA
+#
+#==============================================================================
+SCRIPT			# この行は絶対消さないこと！
+
+#------------------------------------------------------------------------------
+# モデルファイル名
+#------------------------------------------------------------------------------
+FILE_NAME = Data/model/Motion_Player/TreasurePlayer/chest.x					# [0]体
+FILE_NAME = Data/model/Motion_Player/TreasurePlayer/head.x					# [1]頭
+FILE_NAME = Data/model/Motion_Player/TreasurePlayer/waist.x					# [2]腰
+FILE_NAME = Data/model/Motion_Player/TreasurePlayer/upperarm_left.x			# [3]左腕（上）
+FILE_NAME = Data/model/Motion_Player/TreasurePlayer/upperarm_right.x		# [4]右腕（上）
+FILE_NAME = Data/model/Motion_Player/TreasurePlayer/arm_left.x				# [5]左腕
+FILE_NAME = Data/model/Motion_Player/TreasurePlayer/arm_right.x				# [6]右腕
+FILE_NAME = Data/model/Motion_Player/TreasurePlayer/hand_left.x				# [7]左手
+FILE_NAME = Data/model/Motion_Player/TreasurePlayer/hand_right.x			# [8]右手
+FILE_NAME = Data/model/Motion_Player/TreasurePlayer/foot_left.x				# [9]左足
+FILE_NAME = Data/model/Motion_Player/TreasurePlayer/foot_right.x			# [10]右足
+FILE_NAME = Data/model/Motion_Player/TreasurePlayer/pickel.x				# [11]ピッケル
+FILE_NAME = Data/model/basket.x												# [12]かご
+
+#------------------------------------------------------------------------------
+# キャラクター情報
+#------------------------------------------------------------------------------
+CHARACTERSET
+	POS = 100 0 1400
+	POS = 1500 0 1400 
+	POS = 100 0 200
+	POS = 1500 0 200
+END_CHARACTERSET
+
+#------------------------------------------------------------------------------
+# パーツ情報
+#------------------------------------------------------------------------------
+NUMPARTS = 13						# パーツ最大数
+
+ALL_PARTSET
+	PARTSSET						# [0]体
+		INDEX = 0
+		PARENT = -1					# (親)NULL
+		POS = 0.0 20.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET						# [1]頭
+		INDEX = 1
+		PARENT = 0					# (親)体
+		POS = 0.0 22.5 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET						# [2]腰
+		INDEX = 2
+		PARENT = 0					# (親)体
+		POS = 0.0 -4.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET						# [3]左腕（上）
+		INDEX = 3
+		PARENT = 0					# (親)体
+		POS = 12.0 20.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET						# [4]右腕（上）
+		INDEX = 4
+		PARENT = 0					# (親)体
+		POS = -12.0 20.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET						# [5]左腕
+		INDEX = 5
+		PARENT = 3					# (親)左腕（上）
+		POS = 16.0 -2.0 0.0
+		ROT = 0.0 0.5 0.0
+	END_PARTSSET
+
+	PARTSSET						# [6]右腕
+		INDEX = 6
+		PARENT = 4					# (親)右腕（上）
+		POS = -16.0 -2.0 0.0
+		ROT = 0.0 -0.5 0.0
+	END_PARTSSET
+
+	PARTSSET						# [7]左手
+		INDEX = 7
+		PARENT = 5					# (親)右腕（下）
+		POS = 12.0 2.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET						# [8]右手
+		INDEX = 8
+		PARENT = 6					# (親)右腕（下）
+		POS = -12.0 2.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET						# [9]左足
+		INDEX = 9
+		PARENT = 2					# (親)腰
+		POS = 8.0 4.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET						# [10]右足
+		INDEX = 10
+		PARENT = 2					# (親)腰
+		POS = -8.0 4.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET						# [11]ピッケル
+		INDEX = 11
+		PARENT = 8					# (親)右手
+		POS = -8.0 4.0 0.0
+		ROT = -1.5 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET						# [12]かご
+		INDEX = 12
+		PARENT = 0					# (親)体
+		POS = 0.0 20.0 40.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+END_ALL_PARTSET
+
+#------------------------------------------------------------------------------
+# モーション情報
+#------------------------------------------------------------------------------
+#---------------------------------------
+# 移動モーション
+#---------------------------------------
+MOTIONSET
+	LOOP = 1		# ループするかどうか[0:ループしない / 1:ループする]
+	NUM_KEY = 2		# キー数
+	
+	KEYSET			# --- << 1 / 2 >> ---
+		FRAME = 15
+		KEY	# ----- [ 0 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = -0.15 0.0 0.0
+		END_KEY
+
+		KEY	# ----- [ 1 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = -0.15 0.0 0.0
+		END_KEY
+
+		KEY	# ----- [ 2 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 0.1 0.0 0.0
+		END_KEY
+
+		KEY	# ----- [ 3 ] -----
+			POS = 2.0 0.0 0.0
+			ROT = -0.85 0.0 -1.2
+		END_KEY
+
+		KEY	# ----- [ 4 ] -----
+			POS = -2.0 0.0 0.0
+			ROT = 1.0 0.0 1.2
+		END_KEY
+
+		KEY	# ----- [ 5 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 0.0 0.5 0.0
+		END_KEY
+
+		KEY	# ----- [ 6 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 0.0 -0.75 0.3
+		END_KEY
+		
+		KEY	# ----- [ 7 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 0.0 0.4 0.0
+		END_KEY
+		
+		KEY	# ----- [ 8 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 0.0 -0.3 0.3
+		END_KEY
+		
+		KEY	# ----- [ 9 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 0.8 0.0 0.0
+		END_KEY
+		
+		KEY	# ----- [ 10 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = -0.8 0.0 0.0
+		END_KEY
+		
+		KEY	# ----- [ 11 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = -0.4 0.0 0.0
+		END_KEY
+		
+		KEY	# ----- [ 12 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 0.0 0.0 0.0
+		END_KEY
+		
+	END_KEYSET
+	
+	KEYSET			# --- << 2 / 2 >> ---
+		FRAME = 15
+		KEY	# ----- [ 0 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = -0.3 0.0 0.0
+		END_KEY
+
+		KEY	# ----- [ 1 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 0.0 0.0 0.0
+		END_KEY
+
+		KEY	# ----- [ 2 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 0.0 0.0 0.0
+		END_KEY
+
+		KEY	# ----- [ 3 ] -----
+			POS = 2.0 0.0 0.0
+			ROT = 0.7 0.0 -1.2
+		END_KEY
+
+		KEY	# ----- [ 4 ] -----
+			POS = -2.0 0.0 0.0
+			ROT = -0.6 0.0 1.2
+		END_KEY
+
+		KEY	# ----- [ 5 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 0.0 0.75 -0.3
+		END_KEY
+
+		KEY	# ----- [ 6 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 0.0 0.0 0.2
+		END_KEY
+		
+		KEY	# ----- [ 7 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 0.0 0.0 0.0
+		END_KEY
+		
+		KEY	# ----- [ 8 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 0.0 0.0 0.3
+		END_KEY
+		
+		KEY	# ----- [ 9 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = -0.8 0.0 0.0
+		END_KEY
+		
+		KEY	# ----- [ 10 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 1.5 0.0 0.0
+		END_KEY
+		
+		KEY	# ----- [ 11 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = -0.4 0.0 0.0
+		END_KEY
+		
+		KEY	# ----- [ 12 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 0.0 0.0 0.0
+		END_KEY
+		
+	END_KEYSET
+END_MOTIONSET
+
+END_SCRIPT		# この行は絶対消さないこと！

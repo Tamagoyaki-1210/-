@@ -1,0 +1,181 @@
+#==============================================================================
+#
+# 『モーションビューワ』スクリプトファイル [motion.txt]
+# Author : AKIRA TANAKA
+#
+#==============================================================================
+SCRIPT			# この行は絶対消さないこと！
+
+#------------------------------------------------------------------------------
+# モデルファイル名
+#------------------------------------------------------------------------------
+FILE_NAME = Data/model/Motion_Triceratops/Dino/body.x				# [0]体
+FILE_NAME = Data/model/Motion_Triceratops/Dino/head.x				# [1]頭
+FILE_NAME = Data/model/Motion_Triceratops/Dino/jaw.x					# [2]顎
+FILE_NAME = Data/model/Motion_Triceratops/Dino/frontFoot_left.x		# [3]前足（左）
+FILE_NAME = Data/model/Motion_Triceratops/Dino/frontFoot_right.x		# [4]前足（右）
+FILE_NAME = Data/model/Motion_Triceratops/Dino/backFoot_left.x		# [5]後ろ足（左）
+FILE_NAME = Data/model/Motion_Triceratops/Dino/backFoot_right.x		# [6]後ろ足（右）
+FILE_NAME = Data/model/Motion_Triceratops/Dino/tail.x				# [7]しっぽ
+
+#------------------------------------------------------------------------------
+# キャラクター情報
+#------------------------------------------------------------------------------
+NUMPARTS = 8
+
+ALL_PARTSET
+	PARTSSET						# [0]体
+		INDEX = 0
+		PARENT = -1					# (親)NULL
+		POS = 0.0 110.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET						# [1]頭
+		INDEX = 1
+		PARENT = 0					# (親)体
+		POS = 0.0 0.0 -90.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET						# [2]顎
+		INDEX = 2
+		PARENT = 1					# (親)体
+		POS = 0.0 2.0 2.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET						# [3]前足（左）
+		INDEX = 3
+		PARENT = 0					# (親)体
+		POS = -30.0 -20.0 -80.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET						# [4]前足（右）
+		INDEX = 4
+		PARENT = 0					# (親)体
+		POS = 30.0 -20.0 -80.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET						# [5]後ろ足（左）
+		INDEX = 5
+		PARENT = 0					# (親)左腕（上）
+		POS = 44.0 -20.0 55.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET						# [6]後ろ足（右）
+		INDEX = 6
+		PARENT = 0					# (親)右腕（上）
+		POS = -44.0 -20.0 55.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET						# [7]しっぽ
+		INDEX = 7
+		PARENT = 0					# (親)右腕（下）
+		POS = 0.0 8.0 90.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+END_ALL_PARTSET
+
+#------------------------------------------------------------------------------
+# モーション情報
+#------------------------------------------------------------------------------
+#---------------------------------------
+# 移動モーション
+#---------------------------------------
+MOTIONSET
+	LOOP = 1		# ループするかどうか[0:ループしない / 1:ループする]
+	NUM_KEY = 2		# キー数
+	
+	KEYSET			# --- << 0 / 2 >> ---
+		FRAME = 20
+		KEY	# ----- [ 0 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 0.0 0.0 0.0
+		END_KEY
+
+		KEY	# ----- [ 1 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 0.0 0.0 0.0
+		END_KEY
+
+		KEY	# ----- [ 2 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = -0.1 0.0 0.0
+		END_KEY
+
+		KEY	# ----- [ 3 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 0.7 0.0 0.0
+		END_KEY
+
+		KEY	# ----- [ 4 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = -0.6 0.0 0.0
+		END_KEY
+
+		KEY	# ----- [ 5 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 0.5 -0.2 0.0
+		END_KEY
+
+		KEY	# ----- [ 6 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = -0.6 0.0 0.0
+		END_KEY
+		
+		KEY	# ----- [ 7 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 0.0 0.3 0.0
+		END_KEY
+	END_KEYSET
+	
+	KEYSET			# --- << 1 / 2 >> ---
+		FRAME = 20
+		KEY	# ----- [ 0 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = -0.1 0.0 0.0
+		END_KEY
+
+		KEY	# ----- [ 1 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 0.0 0.0 0.0
+		END_KEY
+
+		KEY	# ----- [ 2 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 0.05 0.0 0.0
+		END_KEY
+
+		KEY	# ----- [ 3 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = -0.6 0.0 0.0
+		END_KEY
+
+		KEY	# ----- [ 4 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 0.5 0.0 0.0
+		END_KEY
+
+		KEY	# ----- [ 5 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = -0.6 0.0 0.0
+		END_KEY
+
+		KEY	# ----- [ 6 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 0.5 0.0 0.0
+		END_KEY
+		
+		KEY	# ----- [ 7 ] -----
+			POS = 0.0 0.0 0.0
+			ROT = 0.0 -0.3 0.0
+		END_KEY
+	END_KEYSET
+END_MOTIONSET
+
+END_SCRIPT		# この行は絶対消さないこと！

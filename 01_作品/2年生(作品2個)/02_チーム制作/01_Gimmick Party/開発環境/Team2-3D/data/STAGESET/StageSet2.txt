@@ -1,0 +1,886 @@
+#==============================================================================
+#
+# ステージ配置の設定 [StageSet2.txt]
+# Author : TANIMOTO KOSUKE
+#
+#==============================================================================
+#******************************************************************************
+# メッシュフィールドのテクスチャファイル名
+#******************************************************************************
+FIELDALLSET
+#------------------
+# １個目
+#------------------
+	FIELDSET
+		FIELD
+			LINE = 60										# [0]ステージの縦メッシュ数
+			TEXTURE_TILING = 0.33							# [0]ステージの床テクスチャタイリング
+		END_FIELD
+	END_FIELDSET
+	
+#------------------
+# ２個目
+#------------------
+	FIELDSET
+		FIELD
+			LINE = 2										# [1]ステージの縦メッシュ数
+			TEXTURE_TILING = 1.0							# [1]ステージの底テクスチャタイリング
+		END_FIELD
+	END_FIELDSET
+	
+END_FIELDALLSET
+
+#==============================================================================
+# コインモデル配置情報
+#==============================================================================
+COINALLSET
+#++++++++++++++++++++++++++++++++++++++
+# コインモデル[0]
+#++++++++++++++++++++++++++++++++++++++
+	COINTYPESET
+#------------------
+# １個目
+#------------------
+		COINSET
+			COIN
+				POS = -100.0 -140.0 -2600.0
+			END_COIN
+		END_COINSET		
+#------------------
+# ５個目
+#------------------
+		COINSET
+			COIN
+				POS = 100.0 -140.0 -2600.0
+			END_COIN
+		END_COINSET	
+#------------------
+# ２個目
+#------------------
+		COINSET
+			COIN
+				POS = -50.0 -140.0 -2500.0
+			END_COIN
+		END_COINSET	
+#------------------
+# ３個目
+#------------------
+		COINSET
+			COIN
+				POS = 0.0 -140.0 -2400.0
+			END_COIN
+		END_COINSET	
+#------------------
+# ７個目
+#------------------
+		COINSET
+			COIN
+				POS = -50.0 -140.0 -2400.0
+			END_COIN
+		END_COINSET	
+#------------------
+# ９個目
+#------------------
+		COINSET
+			COIN
+				POS = -25.0 -140.0 -1200.0
+			END_COIN
+		END_COINSET			
+#------------------
+# １０個目
+#------------------
+		COINSET
+			COIN
+				POS = 0.0 -140.0 -1100.0
+			END_COIN
+		END_COINSET	
+#------------------
+# 19個目
+#------------------
+		COINSET
+			COIN
+				POS = -75.0 -125.0 -950.0
+			END_COIN
+		END_COINSET
+#------------------
+# 20個目
+#------------------
+		COINSET
+			COIN
+				POS = -75.0 -100.0 -950.0
+			END_COIN
+		END_COINSET	
+#------------------
+# 21個目
+#------------------
+		COINSET
+			COIN
+				POS = -75.0 -75.0 -950.0
+			END_COIN
+		END_COINSET
+
+#------------------
+# １３個目
+#------------------
+		COINSET
+			COIN
+				POS = 25.0 -140.0 400.0
+			END_COIN
+		END_COINSET			
+#------------------
+# １５個目
+#------------------
+		COINSET
+			COIN
+				POS = 0.0 -140.0 400.0
+			END_COIN
+		END_COINSET			
+#------------------
+# １６個目
+#------------------
+		COINSET
+			COIN
+				POS = -25.0 -140.0 200.0
+			END_COIN
+		END_COINSET	
+	END_COINTYPESET
+#++++++++++++++++++++++++++++++++++++++
+# コインモデル[1]
+#++++++++++++++++++++++++++++++++++++++
+	COINTYPESET
+#------------------
+# １個目
+#------------------
+		COINSET
+			COIN
+				POS = -50.0 -140.0 -2600.0
+			END_COIN
+		END_COINSET			
+#------------------
+# 3個目
+#------------------
+		COINSET
+			COIN
+				POS = 100.0 -140.0 -2300.0
+			END_COIN
+		END_COINSET	
+#------------------
+# １１個目
+#------------------
+		COINSET
+			COIN
+				POS = 75.0 -140.0 -1200.0
+			END_COIN
+		END_COINSET			
+#------------------
+# １２個目
+#------------------
+		COINSET
+			COIN
+				POS = -75.0 -140.0 -1100.0
+			END_COIN
+		END_COINSET	
+#------------------
+# 19個目
+#------------------
+		COINSET
+			COIN
+				POS = 0.0 -125.0 -950.0
+			END_COIN
+		END_COINSET
+#------------------
+# 20個目
+#------------------
+		COINSET
+			COIN
+				POS = 0.0 -100.0 -950.0
+			END_COIN
+		END_COINSET	
+#------------------
+# 21個目
+#------------------
+		COINSET
+			COIN
+				POS = 0.0 -75.0 -950.0
+			END_COIN
+		END_COINSET
+#------------------
+# 6個目
+#------------------
+		COINSET
+			COIN
+				POS = -25.0 -140.0 400.0
+			END_COIN
+		END_COINSET
+#------------------
+# 7個目
+#------------------
+		COINSET
+			COIN
+				POS = 50.0 -140.0 300.0
+			END_COIN
+		END_COINSET
+	END_COINTYPESET
+	
+#++++++++++++++++++++++++++++++++++++++
+# コインモデル[2]
+#++++++++++++++++++++++++++++++++++++++
+	COINTYPESET
+#------------------
+# １個目
+#------------------
+		COINSET
+			COIN
+				POS = 0.0 -140.0 -2600.0
+			END_COIN
+		END_COINSET			
+#------------------
+# 2個目
+#------------------
+		COINSET
+			COIN
+				POS = 100.0 -140.0 -2400.0
+			END_COIN
+		END_COINSET	
+#------------------
+# 3個目
+#------------------
+		COINSET
+			COIN
+				POS = -100.0 -140.0 -2300.0
+			END_COIN
+		END_COINSET		
+#------------------
+# 24個目
+#------------------
+		COINSET
+			COIN
+				POS = 0.0 -140.0 -1200.0
+			END_COIN
+		END_COINSET			
+#------------------
+# 25個目
+#------------------
+		COINSET
+			COIN
+				POS = 25.0 -140.0 -1100.0
+			END_COIN
+		END_COINSET		
+#------------------
+# 19個目
+#------------------
+		COINSET
+			COIN
+				POS = 75.0 -125.0 -950.0
+			END_COIN
+		END_COINSET
+#------------------
+# 20個目
+#------------------
+		COINSET
+			COIN
+				POS = 75.0 -100.0 -950.0
+			END_COIN
+		END_COINSET	
+#------------------
+# 21個目
+#------------------
+		COINSET
+			COIN
+				POS = 75.0 -75.0 -950.0
+			END_COIN
+		END_COINSET
+#------------------
+# 7個目
+#------------------
+		COINSET
+			COIN
+				POS = 0.0 -140.0 300.0
+			END_COIN
+		END_COINSET	
+		
+	END_COINTYPESET
+	
+#++++++++++++++++++++++++++++++++++++++
+# コインモデル[3]
+#++++++++++++++++++++++++++++++++++++++
+	COINTYPESET
+#------------------
+# １個目
+#------------------
+		COINSET
+			COIN
+				POS = 50.0 -140.0 -2600.0
+			END_COIN
+		END_COINSET			
+#------------------
+# ３個目
+#------------------
+		COINSET
+			COIN
+				POS = -100.0 -140.0 -2400.0
+			END_COIN
+		END_COINSET		
+#------------------
+# 7個目
+#------------------
+		COINSET
+			COIN
+				POS = -75.0 -140.0 400.0
+			END_COIN
+		END_COINSET
+#------------------
+# 7個目
+#------------------
+		COINSET
+			COIN
+				POS = 75.0 -140.0 400.0
+			END_COIN
+		END_COINSET
+	END_COINTYPESET
+	
+END_COINALLSET
+
+#==============================================================================
+# 障害物モデル配置情報
+#==============================================================================
+MODELALLSET
+#++++++++++++++++++++++++++++++++++++++
+# 障害物モデル[0] MODEL_SPIKEBALL
+#++++++++++++++++++++++++++++++++++++++
+	MODELTYPESET
+#------------------
+# １個目
+#------------------
+		MODELSET
+			MODEL
+				POS = -100.0 -125.0 500.0
+			END_MODEL
+		END_MODELSET	
+#------------------
+# ２個目
+#------------------
+		MODELSET
+			MODEL
+				POS = 50.0 -120.0 500.0
+			END_MODEL
+		END_MODELSET
+#------------------
+# ３個目
+#------------------
+		MODELSET
+			MODEL
+				POS = -50.0 -120.0 600.0
+			END_MODEL
+			
+		END_MODELSET	
+#------------------
+# ４個目
+#------------------
+		MODELSET
+			MODEL
+				POS = 100.0 -120.0 600.0
+			END_MODEL
+		END_MODELSET
+#------------------
+# ５個目
+#------------------
+		MODELSET
+			MODEL
+				POS = -100.0 -120.0 -100.0
+			END_MODEL
+		END_MODELSET
+#------------------
+# ６個目
+#------------------
+		MODELSET
+			MODEL
+				POS = -100.0 -120.0 0.0
+			END_MODEL
+		END_MODELSET
+#------------------
+# ９個目
+#------------------
+		MODELSET
+			MODEL
+				POS = 50.0 -120.0 -100.0
+			END_MODEL
+		END_MODELSET
+#------------------
+# １０個目
+#------------------
+		MODELSET
+			MODEL
+				POS = 25.0 -120.0 -50.0
+			END_MODEL
+		END_MODELSET
+#------------------
+# １１個目
+#------------------
+		MODELSET
+			MODEL
+				POS = 100.0 -120.0 0.0
+			END_MODEL
+		END_MODELSET
+#------------------
+# １２個目
+#------------------
+		MODELSET
+			MODEL
+				POS = -50.0 -120.0 150.0
+			END_MODEL
+		END_MODELSET
+	END_MODELTYPESET
+
+#++++++++++++++++++++++++++++++++++++++
+# 障害物モデル[1] MODEL_BOUNCEPOLE
+#++++++++++++++++++++++++++++++++++++++
+	MODELTYPESET
+#------------------
+# １個目
+#------------------
+		MODELSET
+			MODEL
+				POS = -75.0 -150.0 300.0
+			END_MODEL
+		END_MODELSET
+#------------------
+# ２個目
+#------------------
+		MODELSET
+			MODEL
+				POS = 0.0 -150.0 350.0
+			END_MODEL
+		END_MODELSET
+#------------------
+# ３個目
+#------------------
+		MODELSET
+			MODEL
+				POS = 75.0 -150.0 400.0
+			END_MODEL
+		END_MODELSET
+		
+	END_MODELTYPESET
+
+#++++++++++++++++++++++++++++++++++++++
+# 障害物モデル[2] MODEL_TRAMPOLINE
+#++++++++++++++++++++++++++++++++++++++
+	MODELTYPESET
+#------------------
+# １個目
+#------------------
+		MODELSET
+			MODEL
+				POS = -75.0 -150.0 -950.0
+			END_MODEL
+		END_MODELSET
+#------------------
+# ２個目
+#------------------
+		MODELSET
+			MODEL
+				POS = 0.0 -150.0 -950.0
+			END_MODEL
+		END_MODELSET
+#------------------
+# ３個目
+#------------------
+		MODELSET
+			MODEL
+				POS = 75.0 -150.0 -950.0
+			END_MODEL
+		END_MODELSET
+		
+	END_MODELTYPESET
+	
+END_MODELALLSET
+
+#==============================================================================
+# 床モデル配置情報
+#==============================================================================
+FLOORALLSET
+#++++++++++++++++++++++++++++++++++++++
+# 床モデル[0] FLOOR_LAVA
+#++++++++++++++++++++++++++++++++++++++
+	FLOORTYPESET
+#------------------
+# １個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = -100.0 -153.0 -2500.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# ２個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = 100.0 -153.0 -2500.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# ３個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = -100.0 -153.0 -2450.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# ４個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = 50.0 -153.0 -2450.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# 5個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = -50.0 -153.0 -2300.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# 6個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = 50.0 -153.0 -2300.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# 7個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = 0.0 -153.0 -2250.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# 8個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = 50.0 -153.0 -2250.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# 9個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = 50.0 -153.0 -1700.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# 10個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = -100.0 -153.0 -1700.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# 11個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = -50.0 -153.0 -1600.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# 12個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = 110.0 -153.0 -1600.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# 13個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = 0.0 -153.0 -1500.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# 14個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = 100.0 -153.0 -1550.0
+			END_FLOOR
+		END_FLOORSET	
+#------------------
+# 15個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = -110.0 -153.0 -1400.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# 16個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = 60.0 -153.0 -1400.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# 17個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = 100.0 -153.0 -1300.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# 18個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = 0.0 -153.0 -1300.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# 19個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = 0.0 -153.0 -200.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# 20個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = 50.0 -153.0 -250.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# 21個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = -60.0 -153.0 -250.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# 22個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = 0.0 -153.0 -150.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# 23個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = 50.0 -153.0 -150.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# 24個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = -110.0 -153.0 -100.0
+			END_FLOOR
+		END_FLOORSET	
+#------------------
+# 25個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = -60.0 -153.0 0.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# 26個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = -110.0 -153.0 0.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# 27個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = -20.0 -153.0 100.0
+			END_FLOOR
+		END_FLOORSET
+#------------------
+# 28個目
+#------------------
+		FLOORSET
+			FLOOR
+				POS = 110.0 -153.0 100.0
+			END_FLOOR
+		END_FLOORSET
+	END_FLOORTYPESET
+	
+#++++++++++++++++++++++++++++++++++++++
+# 床モデル[1] FLOOR_SRIP
+#++++++++++++++++++++++++++++++++++++++
+	FLOORTYPESET	
+
+	END_FLOORTYPESET
+
+END_FLOORALLSET
+
+#==============================================================================
+# 生成モデル配置情報
+#==============================================================================
+SPAWNERALLSET
+#++++++++++++++++++++++++++++++++++++++
+# 生成モデル[0] SPAWNER_FALLSTONE
+#++++++++++++++++++++++++++++++++++++++
+	SPAWNERTYPESET
+#------------------
+# １個目
+#------------------
+		SPAWNERSET
+			SPAWNER
+				POS = 0.0 400.0 -1800.0
+				WIDTH = 130.0
+				LENGTH = 300.0
+				COLL = 30
+			END_SPAWNER
+		END_SPAWNERSET
+#------------------
+# ２個目
+#------------------
+		SPAWNERSET
+			SPAWNER
+				POS = 0.0 400.0 -200.0
+				WIDTH = 130.0
+				LENGTH = 400.0
+				COLL = 20
+			END_SPAWNER
+		END_SPAWNERSET
+
+	END_SPAWNERTYPESET
+
+#++++++++++++++++++++++++++++++++++++++
+# 生成モデル[1] SPAWNER_ICEPILLAR
+#++++++++++++++++++++++++++++++++++++++
+	SPAWNERTYPESET
+
+	END_SPAWNERTYPESET
+
+END_SPAWNERALLSET
+
+#==============================================================================
+# 環境モデル配置情報
+#==============================================================================
+ENVIRONMENTALLSET
+#++++++++++++++++++++++++++++++++++++++
+# 環境モデル[0] ENVIRONMENT_MOUNT
+#++++++++++++++++++++++++++++++++++++++
+	ENVIRONMENTTYPESET
+#------------------
+# １個目
+#------------------
+		ENVIRONMENTSET
+			ENVIRONMENT
+				POS = -1400.0 -2200.0 50.0
+			END_ENVIRONMENT
+		END_ENVIRONMENTSET	
+	
+#------------------
+# ２個目
+#------------------
+		ENVIRONMENTSET
+			ENVIRONMENT
+				POS = 2460.0 -2200.0 5050.0
+			END_ENVIRONMENT
+		END_ENVIRONMENTSET	
+
+	END_ENVIRONMENTTYPESET
+	
+#++++++++++++++++++++++++++++++++++++++
+# 環境モデル[1] ENVIRONMENT_MOUNT_YUKI
+#++++++++++++++++++++++++++++++++++++++
+	ENVIRONMENTTYPESET:
+
+	END_ENVIRONMENTTYPESET
+
+#++++++++++++++++++++++++++++++++++++++
+# 環境モデル[2] ENVIRONMENT_BALLOON
+#++++++++++++++++++++++++++++++++++++++
+	ENVIRONMENTTYPESET
+
+	END_ENVIRONMENTTYPESET
+	
+#++++++++++++++++++++++++++++++++++++++
+# 環境モデル[3] ENVIRONMENT_TREE1
+#++++++++++++++++++++++++++++++++++++++
+	ENVIRONMENTTYPESET
+
+	END_ENVIRONMENTTYPESET
+	
+#++++++++++++++++++++++++++++++++++++++
+# 環境モデル[4] ENVIRONMENT_TREE2
+#++++++++++++++++++++++++++++++++++++++
+	ENVIRONMENTTYPESET
+
+	END_ENVIRONMENTTYPESET
+	
+#++++++++++++++++++++++++++++++++++++++
+# 環境モデル[5] ENVIRONMENT_WINDMILL
+#++++++++++++++++++++++++++++++++++++++
+	ENVIRONMENTTYPESET
+
+	END_ENVIRONMENTTYPESET
+	
+#++++++++++++++++++++++++++++++++++++++
+# 環境モデル[6] ENVIRONMENT_AIRSHIP
+#++++++++++++++++++++++++++++++++++++++
+	ENVIRONMENTTYPESET
+
+	END_ENVIRONMENTTYPESET
+	
+#++++++++++++++++++++++++++++++++++++++
+# 環境モデル[7] ENVIRONMENT_STONE
+#++++++++++++++++++++++++++++++++++++++
+	ENVIRONMENTTYPESET
+#------------------
+# １個目
+#------------------
+		ENVIRONMENTSET
+			ENVIRONMENT
+				POS = 2000.0 -2000.0 1145.0
+			END_ENVIRONMENT
+		END_ENVIRONMENTSET	
+#------------------
+# ２個目
+#------------------
+		ENVIRONMENTSET
+			ENVIRONMENT
+				POS = -2000.0 -2000.0 5145.0
+			END_ENVIRONMENT
+		END_ENVIRONMENTSET	
+#------------------
+# ３個目
+#------------------
+		ENVIRONMENTSET
+			ENVIRONMENT
+				POS = -1400.0 -2000.0 4545.0
+			END_ENVIRONMENT
+		END_ENVIRONMENTSET	
+	END_ENVIRONMENTTYPESET
+
+END_ENVIRONMENTALLSET
+
+END_SCRIPT		# この行は絶対消さないこと！
