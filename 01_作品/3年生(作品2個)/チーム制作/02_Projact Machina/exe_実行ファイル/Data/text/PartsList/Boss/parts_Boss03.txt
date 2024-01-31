@@ -1,0 +1,145 @@
+#==============================================================================
+#
+# 『モーションビューワ』スクリプトファイル [motion_runningman.txt]
+# Author : AKIRA TANAKA
+#
+#==============================================================================
+SCRIPT			# この行は絶対消さないこと！
+
+#------------------------------------------------------------------------------
+# モデルファイル名
+#------------------------------------------------------------------------------
+MODEL_FILENAME = Data/model/Boss/Num03/Boss_Body.x			# [0]胴体
+MODEL_FILENAME = Data/model/Boss/Num03/Boss_Head.x			# [1]頭
+MODEL_FILENAME = Data/model/Boss/Num03/Boss_UpArm.x			# [2]左上腕
+MODEL_FILENAME = Data/model/Boss/Num03/Boss_DownArm.x		# [3]左下腕
+MODEL_FILENAME = Data/model/Boss/Num03/Boss_UpArm.x			# [4]右上腕
+MODEL_FILENAME = Data/model/Boss/Num03/Boss_DownArm.x		# [5]右ソードアーム
+MODEL_FILENAME = Data/model/Boss/Num03/Boss_LeftLec.x		# [6]触手
+MODEL_FILENAME = Data/model/Boss/Num03/Boss_RightLec.x		# [7]触手
+MODEL_FILENAME = Data/model/Boss/Num03/Boss_Foot.x		# [8]触手
+MODEL_FILENAME = Data/model/Boss/Num03/Boss_Foot.x		# [9]触手
+MODEL_FILENAME = Data/model/Boss/Num03/Boss_clothes.x		# [10]触手
+MODEL_FILENAME = Data/model/Boss/Num03/Boss_LeftHand.x		# [11]触手
+MODEL_FILENAME = Data/model/Boss/Num03/Boss_RightHand.x		# [12]触手
+MODEL_FILENAME = Data/model/Boss/Num03/Boss_Shoulder.x		# [13]触手
+MODEL_FILENAME = Data/model/Boss/Num03/Boss_Shoulder.x		# [14]触手
+
+#------------------------------------------------------------------------------
+# キャラクター情報
+#------------------------------------------------------------------------------
+CHARACTERSET
+	NUM_PARTS = 15					# パーツ数
+	MOVE = 2.0						# 移動量
+	JUMP = 11.25					# ジャンプ量
+	RADIUS = 40.0					# 半径
+	HEIGHT = 80.0					# 高さ
+
+	PARTSSET
+		INDEX = 0					# 胴体
+		PARENT = -1					# (親)NULL
+		POS = 0.0 23.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 1					# 頭
+		PARENT = 0					# (親)胸
+		POS = 0.0 12.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 2					# 上腕
+		PARENT = 13					# (親)胴体
+		POS = 9.0 -2.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 3					# 下腕
+		PARENT = 2					# (親)上腕
+		POS = 17.7 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 4					# 手
+		PARENT = 14					# (親)下腕
+		POS = 9.0 -2.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 5					# 上腕
+		PARENT = 4					# (親)胴体
+		POS = 17.7 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 6					# 下腕
+		PARENT = 0					# (親)上腕
+		POS = 1.5 -3.5 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 7					# 触手
+		PARENT = 0					# (親)胴体
+		POS = -1.5 -3.5 0.0
+		ROT = 0.00 0.00 0.00
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 8					# 触手
+		PARENT = 6					# (親)胴体
+		POS = 0.00 -8.00 0.00
+		ROT = 0.00 0.00 0.00
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 9					# 触手
+		PARENT = 7					# (親)胴体
+		POS = 0.00 -8.00 0.00
+		ROT = 0.00 0.00 0.00
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 10					# 触手
+		PARENT = 0					# (親)胴体
+		POS = 0.00 12.00 3.00
+		ROT = 0.00 0.00 0.00
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 11					# 触手
+		PARENT = 3					# (親)胴体
+		POS = 26.00 3.2 0.00
+		ROT = 0.00 0.00 0.00
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 12					# 触手
+		PARENT = 5					# (親)胴体
+		POS = 26.00 3.20 0.00
+		ROT = 0.00 59.7 0.00
+	END_PARTSSET
+	
+		PARTSSET
+		INDEX = 13					# 触手
+		PARENT = 0					# (親)胴体
+		POS = 3.00 10.00 0.00
+		ROT = 0.00 0.00 0.00
+	END_PARTSSET
+	
+		PARTSSET
+		INDEX = 14					# 触手
+		PARENT = 0					# (親)胴体
+		POS = -3.00 10.00 0.00
+		ROT = 0.00 59.7 0.00
+	END_PARTSSET
+	
+END_ALL_PARTSSET
+
+END_SCRIPT		# この行は絶対消さないこと！

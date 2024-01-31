@@ -1,0 +1,623 @@
+Tag : Attack
+Index : 0
+UseRandom : true
+RandomVelocityMin : -50 , -50 , -50
+RandomVelocityMax : 50 , 50 , 50
+RandomRotateMin : 0
+RandomRotateMax : 0
+RandomWeightMin : 0
+RandomWeightMax : 0
+DistortionMin : 1
+DistortionMax : 1
+RandomCreate : 0
+LockPosition : 0
+DelayStartTime : 0
+CreateRange : 0
+PosOffset : 0 , 0 , 0
+Velocity : 0 , 0 , 0
+VelocityAttenuation : 0.184
+Behavior : 2
+Scale : 30 , 30 , 0
+Color : 0.63354 , 0 , 0 , 1
+DestColor : 1 , 0.447205 , 0 , 0.819876
+ColorAttenuation : 6
+BlendType : 0
+Scaling : 0 , 0 , 0
+Weight : 0
+Radius : 360
+RotateAngle : 0
+RotateRadius : 0
+RandomRotateMinBH : 0
+RandomRotateMaxBH : 0
+PopTime : 20
+Quantity : 10
+TextureTag : SMOKE
+Trail : false
+Index : 1
+UseRandom : true
+RandomVelocityMin : -50 , -50 , -50
+RandomVelocityMax : 50 , 50 , 50
+RandomRotateMin : 0
+RandomRotateMax : 0
+RandomWeightMin : 0
+RandomWeightMax : 0
+DistortionMin : 1
+DistortionMax : 1
+RandomCreate : 1
+LockPosition : 0
+DelayStartTime : 0
+CreateRange : 0.1
+PosOffset : 0 , 0 , 0
+Velocity : 0 , 1.21 , 0
+VelocityAttenuation : 1.1
+Behavior : 1
+Scale : 20 , 20 , 0
+Color : 0.8 , 0.16 , 0.16 , 1
+DestColor : 1 , 0.521739 , 0 , 0.695652
+ColorAttenuation : 5
+BlendType : 0
+Scaling : 0 , 0 , 0
+Weight : 0
+Radius : 360
+RotateAngle : 0
+RotateRadius : 0
+RandomRotateMinBH : 0
+RandomRotateMaxBH : 0
+PopTime : 35
+Quantity : 5
+TextureTag : SOUL
+Trail : false
+Tag : Begin
+Index : 0
+UseRandom : false
+RandomVelocityMin : 0 , 0 , 0
+RandomVelocityMax : 0 , 0 , 0
+RandomRotateMin : 0
+RandomRotateMax : 0
+RandomWeightMin : 0
+RandomWeightMax : 0
+DistortionMin : 1
+DistortionMax : 1
+RandomCreate : 0
+LockPosition : 0
+DelayStartTime : 0
+CreateRange : 0
+PosOffset : 0 , 0 , 0
+Velocity : 0 , 0 , 0
+VelocityAttenuation : 0.005
+Behavior : 0
+Scale : 10 , 10 , 0
+Color : 1 , 1 , 1 , 1
+DestColor : 1 , 1 , 1 , 1
+ColorAttenuation : 0.5
+BlendType : 0
+Scaling : 0 , 0 , 0
+Weight : 0
+Radius : 360
+RotateAngle : 0
+RotateRadius : 0
+RandomRotateMinBH : 0
+RandomRotateMaxBH : 0
+PopTime : 50
+Quantity : 5
+TextureTag : FLARE
+Trail : false
+Tag : Destroy
+Index : 0
+UseRandom : false
+RandomVelocityMin : 0 , 0 , 0
+RandomVelocityMax : 0 , 0 , 0
+RandomRotateMin : 0
+RandomRotateMax : 0
+RandomWeightMin : 0
+RandomWeightMax : 0
+DistortionMin : 1
+DistortionMax : 1
+RandomCreate : 1
+LockPosition : 0
+DelayStartTime : 0
+CreateRange : 0.2
+PosOffset : 0 , 0 , 0
+Velocity : 0 , 1 , 0
+VelocityAttenuation : 2
+Behavior : 1
+Scale : 70 , 70 , 0
+Color : 1 , 1 , 1 , 1
+DestColor : 1 , 1 , 1 , 0
+ColorAttenuation : 20
+BlendType : 2
+Scaling : 1 , 1 , 0
+Weight : 0
+Radius : 360
+RotateAngle : 1.55
+RotateRadius : 0.296
+RandomRotateMinBH : 0
+RandomRotateMaxBH : 0
+PopTime : 125
+Quantity : 30
+TextureTag : BRIGHT
+Trail : false
+Index : 1
+UseRandom : false
+RandomVelocityMin : -50 , -50 , -50
+RandomVelocityMax : 50 , 50 , 50
+RandomRotateMin : 0
+RandomRotateMax : 0
+RandomWeightMin : 0
+RandomWeightMax : 0
+DistortionMin : 1
+DistortionMax : 1
+RandomCreate : 1
+LockPosition : 0
+DelayStartTime : 0
+CreateRange : 1.5
+PosOffset : 0 , 0 , 0
+Velocity : 0 , 1 , 0
+VelocityAttenuation : 3
+Behavior : 1
+Scale : 50 , 50 , 0
+Color : 0.919255 , 1 , 0 , 0.670807
+DestColor : 1 , 0.782609 , 0 , 0
+ColorAttenuation : 5
+BlendType : 2
+Scaling : 1 , 1 , 0
+Weight : 0
+Radius : 360
+RotateAngle : 0
+RotateRadius : 0
+RandomRotateMinBH : 0
+RandomRotateMaxBH : 0
+PopTime : 80
+Quantity : 3
+TextureTag : BRIGHT2
+Trail : false
+Tag : Dust
+Index : 0
+UseRandom : false
+RandomVelocityMin : 0 , 0 , 0
+RandomVelocityMax : 0 , 0 , 0
+RandomRotateMin : 0
+RandomRotateMax : 0
+RandomWeightMin : 0
+RandomWeightMax : 0
+DistortionMin : 1
+DistortionMax : 1
+RandomCreate : 1
+LockPosition : 0
+DelayStartTime : 0
+CreateRange : 10
+PosOffset : 0 , 0 , 0
+Velocity : 0 , 10 , 0
+VelocityAttenuation : 1
+Behavior : 1
+Scale : 50 , 50 , 0
+Color : 0.670807 , 0.399985 , 0 , 1
+DestColor : 0.484472 , 0.356911 , 0.168512 , 0.677019
+ColorAttenuation : 0.5
+BlendType : 0
+Scaling : 0 , 0 , 0
+Weight : 0
+Radius : 360
+RotateAngle : 0
+RotateRadius : 0
+RandomRotateMinBH : 0
+RandomRotateMaxBH : 0
+PopTime : 50
+Quantity : 150
+TextureTag : SMOKE
+Trail : false
+Index : 1
+UseRandom : false
+RandomVelocityMin : 0 , 0 , 0
+RandomVelocityMax : 0 , 0 , 0
+RandomRotateMin : 0
+RandomRotateMax : 0
+RandomWeightMin : 0
+RandomWeightMax : 0
+DistortionMin : 1
+DistortionMax : 1
+RandomCreate : 0
+LockPosition : 0
+DelayStartTime : 0
+CreateRange : 0
+PosOffset : 0 , 0 , 0
+Velocity : 0 , 0 , 0
+VelocityAttenuation : 0.1
+Behavior : 2
+Scale : 150 , 150 , 0
+Color : 0.621118 , 0.370356 , 0 , 1
+DestColor : 0.695652 , 0.524134 , 0.362949 , 0.602484
+ColorAttenuation : 0.5
+BlendType : 0
+Scaling : 0 , 0 , 0
+Weight : 0
+Radius : 360
+RotateAngle : 0
+RotateRadius : 0
+RandomRotateMinBH : 0
+RandomRotateMaxBH : 0
+PopTime : 100
+Quantity : 150
+TextureTag : FLARE1
+Trail : false
+Tag : ItemGet
+Index : 0
+UseRandom : false
+RandomVelocityMin : 0 , 0 , 0
+RandomVelocityMax : 0 , 0 , 0
+RandomRotateMin : 1
+RandomRotateMax : 1
+RandomWeightMin : 0
+RandomWeightMax : 0
+DistortionMin : 1
+DistortionMax : 1
+RandomCreate : 0
+LockPosition : 0
+DelayStartTime : 0
+CreateRange : 0.1
+PosOffset : 0 , 0 , 0
+Velocity : 0 , 0.1 , 0
+VelocityAttenuation : 2
+Behavior : 1
+Scale : 70 , 70 , 0
+Color : 0.42236 , 1 , 0.838548 , 1
+DestColor : 1 , 1 , 1 , 0.540373
+ColorAttenuation : 10
+BlendType : 2
+Scaling : 0 , 0 , 0
+Weight : 0
+Radius : 360
+RotateAngle : 3.05
+RotateRadius : 0.807
+RandomRotateMinBH : 1.72
+RandomRotateMaxBH : 1.81
+PopTime : 60
+Quantity : 10
+TextureTag : BRIGHT
+Trail : false
+Tag : Locus
+Index : 0
+UseRandom : false
+RandomVelocityMin : 0 , 0 , 0
+RandomVelocityMax : 0 , 0 , 0
+RandomRotateMin : 0
+RandomRotateMax : 0
+RandomWeightMin : 0
+RandomWeightMax : 0
+DistortionMin : 1
+DistortionMax : 1
+RandomCreate : 0
+LockPosition : 0
+DelayStartTime : 0
+CreateRange : 0
+PosOffset : 0 , 0 , 0
+Velocity : 0 , 0 , 0
+VelocityAttenuation : 0.005
+Behavior : 0
+Scale : 50 , 50 , 0
+Color : 1 , 1 , 1 , 1
+DestColor : 1 , 1 , 1 , 1
+ColorAttenuation : 0.5
+BlendType : 0
+Scaling : -1 , -1 , 0
+Weight : 0
+Radius : 360
+RotateAngle : 0
+RotateRadius : 0
+RandomRotateMinBH : 0
+RandomRotateMaxBH : 0
+PopTime : 50
+Quantity : 5
+TextureTag : FLARE1
+Trail : false
+Tag : Shock
+Index : 0
+UseRandom : false
+RandomVelocityMin : 0 , 0 , 0
+RandomVelocityMax : 0 , 0 , 0
+RandomRotateMin : 0
+RandomRotateMax : 0
+RandomWeightMin : 0
+RandomWeightMax : 0
+DistortionMin : 1
+DistortionMax : 1
+RandomCreate : 0
+LockPosition : 0
+DelayStartTime : 0
+CreateRange : 0
+PosOffset : 0 , 0 , 0
+Velocity : 0 , 0 , 0
+VelocityAttenuation : 30
+Behavior : 1
+Scale : 1000 , 1000 , 0
+Color : 1 , 1 , 1 , 1
+DestColor : 1 , 1 , 1 , 1
+ColorAttenuation : 0.5
+BlendType : 0
+Scaling : 0 , 0 , 0
+Weight : 0
+Radius : 360
+RotateAngle : 0
+RotateRadius : 0
+RandomRotateMinBH : 0
+RandomRotateMaxBH : 0
+PopTime : 100
+Quantity : 150
+TextureTag : SHOCK
+Trail : false
+Tag : burst
+Index : 0
+UseRandom : false
+RandomVelocityMin : 0 , 0 , 0
+RandomVelocityMax : 0 , 0 , 0
+RandomRotateMin : 0
+RandomRotateMax : 0
+RandomWeightMin : 0
+RandomWeightMax : 0
+DistortionMin : 1
+DistortionMax : 1
+RandomCreate : 1
+LockPosition : 0
+DelayStartTime : 0
+CreateRange : 0
+PosOffset : 0 , 0 , 0
+Velocity : 0 , -5 , 0
+VelocityAttenuation : 1
+Behavior : 1
+Scale : 50 , 50 , 0
+Color : 1 , 0 , 0 , 1
+DestColor : 1 , 0.63354 , 0 , 1
+ColorAttenuation : 1
+BlendType : 0
+Scaling : 0 , 0 , 0
+Weight : 0
+Radius : 360
+RotateAngle : 0
+RotateRadius : 0
+RandomRotateMinBH : 0
+RandomRotateMaxBH : 0
+PopTime : 60
+Quantity : 10
+TextureTag : FLARE1
+Trail : false
+Index : 1
+UseRandom : false
+RandomVelocityMin : 0 , 0 , 0
+RandomVelocityMax : 0 , 0 , 0
+RandomRotateMin : 0
+RandomRotateMax : 0
+RandomWeightMin : 0
+RandomWeightMax : 0
+DistortionMin : 1
+DistortionMax : 1
+RandomCreate : 0
+LockPosition : 0
+DelayStartTime : 10
+CreateRange : 0
+PosOffset : 0 , 0 , 0
+Velocity : 0 , -5 , 0
+VelocityAttenuation : 1
+Behavior : 1
+Scale : 10 , 10 , 0
+Color : 1 , 0 , 0 , 1
+DestColor : 1 , 0.484472 , 0 , 1
+ColorAttenuation : 0.5
+BlendType : 0
+Scaling : 0 , 0 , 0
+Weight : 0
+Radius : 360
+RotateAngle : 0
+RotateRadius : 0
+RandomRotateMinBH : 0
+RandomRotateMaxBH : 0
+PopTime : 50
+Quantity : 5
+TextureTag : FLARE
+Trail : false
+Index : 2
+UseRandom : false
+RandomVelocityMin : 0 , 0 , 0
+RandomVelocityMax : 0 , 0 , 0
+RandomRotateMin : 0
+RandomRotateMax : 0
+RandomWeightMin : 0
+RandomWeightMax : 0
+DistortionMin : 1
+DistortionMax : 1
+RandomCreate : 0
+LockPosition : 0
+DelayStartTime : 20
+CreateRange : 0
+PosOffset : 0 , 0 , 0
+Velocity : 0 , -5 , 0
+VelocityAttenuation : 1
+Behavior : 1
+Scale : 10 , 10 , 0
+Color : 1 , 0 , 0 , 1
+DestColor : 1 , 0.484472 , 0 , 1
+ColorAttenuation : 0.5
+BlendType : 0
+Scaling : 0 , 0 , 0
+Weight : 0
+Radius : 360
+RotateAngle : 0
+RotateRadius : 0
+RandomRotateMinBH : 0
+RandomRotateMaxBH : 0
+PopTime : 50
+Quantity : 5
+TextureTag : FLARE
+Trail : false
+Tag : playerdied
+Index : 0
+UseRandom : false
+RandomVelocityMin : 0 , 0 , 0
+RandomVelocityMax : 0 , 0 , 0
+RandomRotateMin : 0
+RandomRotateMax : 0
+RandomWeightMin : 0
+RandomWeightMax : 0
+DistortionMin : 1
+DistortionMax : 1
+RandomCreate : 0
+LockPosition : 0
+DelayStartTime : 0
+CreateRange : 0
+PosOffset : 0 , 0 , 0
+Velocity : 0 , 2 , 0
+VelocityAttenuation : 5
+Behavior : 1
+Scale : 70 , 70 , 0
+Color : 1 , 0 , 0 , 1
+DestColor : 1 , 0 , 0 , 1
+ColorAttenuation : 0.5
+BlendType : 0
+Scaling : 0 , 0 , 0
+Weight : 0
+Radius : 360
+RotateAngle : 0
+RotateRadius : 0
+RandomRotateMinBH : 0
+RandomRotateMaxBH : 0
+PopTime : 50
+Quantity : 10
+TextureTag : SHOCK
+Trail : false
+Index : 1
+UseRandom : false
+RandomVelocityMin : 0 , 0 , 0
+RandomVelocityMax : 0 , 0 , 0
+RandomRotateMin : 0
+RandomRotateMax : 0
+RandomWeightMin : 0
+RandomWeightMax : 0
+DistortionMin : 1
+DistortionMax : 1
+RandomCreate : 0
+LockPosition : 0
+DelayStartTime : 0
+CreateRange : 0
+PosOffset : 0 , 0 , 0
+Velocity : 0 , 1 , 0
+VelocityAttenuation : 0.1
+Behavior : 2
+Scale : 100 , 100 , 0
+Color : 1 , 1 , 1 , 1
+DestColor : 1 , 1 , 1 , 1
+ColorAttenuation : 0.5
+BlendType : 0
+Scaling : 0 , 0 , 0
+Weight : 0
+Radius : 360
+RotateAngle : 0
+RotateRadius : 0
+RandomRotateMinBH : 0
+RandomRotateMaxBH : 0
+PopTime : 50
+Quantity : 5
+TextureTag : FLARE1
+Trail : false
+Tag : smoke
+Index : 0
+UseRandom : false
+RandomVelocityMin : -10 , -10 , -10
+RandomVelocityMax : 10 , 10 , 10
+RandomRotateMin : 0
+RandomRotateMax : 0
+RandomWeightMin : 0
+RandomWeightMax : 0
+DistortionMin : 1
+DistortionMax : 1
+RandomCreate : 1
+LockPosition : 0
+DelayStartTime : 0
+CreateRange : 0.05
+PosOffset : 0 , 0 , 0
+Velocity : 0 , 1 , 0
+VelocityAttenuation : 0.5
+Behavior : 1
+Scale : 10 , 10 , 0
+Color : 0.273292 , 0.132402 , 0 , 1
+DestColor : 0.217391 , 0.217391 , 0.217391 , 0.248447
+ColorAttenuation : 1
+BlendType : 0
+Scaling : 2 , 2 , 0
+Weight : 0
+Radius : 360
+RotateAngle : 0
+RotateRadius : 0
+RandomRotateMinBH : 0
+RandomRotateMaxBH : 0
+PopTime : 100
+Quantity : 20
+TextureTag : SMOKE
+Trail : false
+Index : 1
+UseRandom : false
+RandomVelocityMin : 0 , 0 , 0
+RandomVelocityMax : 5 , 5 , 0
+RandomRotateMin : 0
+RandomRotateMax : 0
+RandomWeightMin : 0
+RandomWeightMax : 0
+DistortionMin : 1
+DistortionMax : 1
+RandomCreate : 1
+LockPosition : 0
+DelayStartTime : 25
+CreateRange : 0.08
+PosOffset : 0 , 0 , 0
+Velocity : 0 , 1 , 0
+VelocityAttenuation : 0.5
+Behavior : 1
+Scale : 10 , 10 , 0
+Color : 0.73913 , 0.73913 , 0.73913 , 1
+DestColor : 0.484472 , 0.484472 , 0.484472 , 0.285714
+ColorAttenuation : 1
+BlendType : 0
+Scaling : 0 , 0 , 0
+Weight : 0
+Radius : 360
+RotateAngle : 0
+RotateRadius : 0
+RandomRotateMinBH : 0
+RandomRotateMaxBH : 0
+PopTime : 100
+Quantity : 30
+TextureTag : FLARE
+Trail : false
+Tag : spark
+Index : 0
+UseRandom : false
+RandomVelocityMin : 0 , 0 , 0
+RandomVelocityMax : 0 , 0 , 0
+RandomRotateMin : 0
+RandomRotateMax : 0
+RandomWeightMin : 0.01
+RandomWeightMax : 0.001
+DistortionMin : 1
+DistortionMax : 1
+RandomCreate : 1
+LockPosition : 0
+DelayStartTime : 0
+CreateRange : 0
+PosOffset : 0 , 0 , 0
+Velocity : 0 , 0 , 0
+VelocityAttenuation : 0.1
+Behavior : 2
+Scale : 100 , 100 , 0
+Color : 0.627329 , 0.182625 , 0.0545504 , 1
+DestColor : 1 , 0 , 0 , 1
+ColorAttenuation : 0.5
+BlendType : 0
+Scaling : 0 , 0 , 0
+Weight : 0
+Radius : 360
+RotateAngle : 0
+RotateRadius : 0
+RandomRotateMinBH : 0
+RandomRotateMaxBH : 0
+PopTime : 80
+Quantity : 50
+TextureTag : SHOCK
+Trail : false

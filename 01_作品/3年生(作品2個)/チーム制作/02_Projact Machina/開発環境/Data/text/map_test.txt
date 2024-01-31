@@ -1,0 +1,100 @@
+#==============================================================================
+#
+# 『Map』スクリプトファイル [Map.txt]
+# Author : 小綱啓仁
+#
+#==============================================================================
+SCRIPT			# この行は絶対消さないこと！
+
+#------------------------------------------------------------------------------
+# 読み込むモデル数
+#------------------------------------------------------------------------------
+NUM_MODEL = 15
+
+#------------------------------------------------------------------------------
+# 読み込むモデルファイル名
+#------------------------------------------------------------------------------
+MODEL_FILENAME = Data/model/notinisakuzyo.x
+MODEL_FILENAME = Data/model/Cannon_Down.x
+MODEL_FILENAME = Data/model/notinisakuzyo.x
+MODEL_FILENAME = Data/model/notinisakuzyo.x
+MODEL_FILENAME = Data/model/notinisakuzyo.x
+MODEL_FILENAME = Data/model/notinisakuzyo.x
+MODEL_FILENAME = Data/model/notinisakuzyo.x
+MODEL_FILENAME = Data/model/notinisakuzyo.x
+MODEL_FILENAME = Data/model/notinisakuzyo.x
+MODEL_FILENAME = Data/model/notinisakuzyo.x
+MODEL_FILENAME = Data/model/notinisakuzyo.x
+MODEL_FILENAME = Data/model/notinisakuzyo.x
+MODEL_FILENAME = Data/model/notinisakuzyo.x
+MODEL_FILENAME = Data/model/notinisakuzyo.x
+MODEL_FILENAME = Data/model/notinisakuzyo.x
+
+#------------------------------------------------------------------------------
+# 表示するモデルの配置情報
+#------------------------------------------------------------------------------
+
+#------------------------------------------------------------------------------
+# 拘束スイッチ４つ
+#------------------------------------------------------------------------------
+MODELSET
+	TYPE = 1
+	POS = -1500.0 0.0 2000.0
+	ROT = 0.0 0.0 0.0
+	SWITCH = 1
+	COLLISION_OFF = 1
+END_MODELSET
+
+MODELSET
+	TYPE = 1
+	POS = -1500.0 0.0 7500.0
+	ROT = 0.0 0.0 0.0
+	SWITCH = 1
+	COLLISION_OFF = 1
+END_MODELSET
+
+MODELSET
+	TYPE = 1
+	POS = 1500.0 0.0 7500.0
+	ROT = 0.0 0.0 0.0
+	SWITCH = 1
+	COLLISION_OFF = 1
+END_MODELSET
+
+MODELSET
+	TYPE = 1
+	POS = 1500.0 0.0 2000.0
+	ROT = 0.0 0.0 0.0
+	SWITCH = 1
+	COLLISION_OFF = 1
+END_MODELSET
+
+#------------------------------------------------------------------------------
+# 普通の障害物
+#------------------------------------------------------------------------------
+MODELSET
+	TYPE = 0
+	POS = 1000.0 0.0 2000.0
+	ROT = 0.0 0.5 0.0
+	SWITCH = 0
+	COLLISION_OFF = 1
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = 0.0 0.0 3000.0
+	ROT = 0.0 0.0 0.0
+	SWITCH = 0
+	COLLISION_OFF = 1
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = 500.0 0.0 500.0
+	ROT = 0.0 0.0 0.0
+	SWITCH = 0
+	COLLISION_OFF = 1
+END_MODELSET
+
+
+END_SCRIPT		# この行は絶対消さないこと！

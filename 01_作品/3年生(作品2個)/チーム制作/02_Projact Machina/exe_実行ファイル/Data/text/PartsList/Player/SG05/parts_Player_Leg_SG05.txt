@@ -1,0 +1,86 @@
+#==============================================================================
+#
+# モーションスクリプト
+# Author::Takano minto
+#
+#==============================================================================
+SCRIPT			# この行は絶対消さないこと！
+
+#------------------------------------------------------------------------------
+# モデルファイル名
+#------------------------------------------------------------------------------
+MODEL_FILENAME = Data/model/SG_01/DummyParent.x		# [0]ダミー
+MODEL_FILENAME = Data/model/SG_05/SG05_Hip.x		# [1]腰
+MODEL_FILENAME = Data/model/SG_05/SG05_Thighs.x		# [2]右腿
+MODEL_FILENAME = Data/model/SG_05/SG05_Leg.x		# [3]右脛
+MODEL_FILENAME = Data/model/SG_05/SG05_Foot.x		# [4]右足
+MODEL_FILENAME = Data/model/SG_05/SG05_Thighs.x		# [5]左腿
+MODEL_FILENAME = Data/model/SG_05/SG05_Leg.x		# [6]左脛
+MODEL_FILENAME = Data/model/SG_05/SG05_Foot.x		# [7]左足
+
+#------------------------------------------------------------------------------
+# キャラクター情報
+#------------------------------------------------------------------------------
+NUM_MODEL = 8
+
+ALL_PARTSSET
+
+	PARTSSET
+		INDEX = 0					# 胴
+		PARENT = -1					# (親)NULL
+		POS = 0.0 79.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 1					# 腰
+		PARENT = 0					# (親)NULL
+		POS = 0.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+		PARTSSET
+		INDEX = 2					# 右腿
+		PARENT = 1					# (親)腰
+		POS = -8.0 -5.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 3					# 右脛
+		PARENT = 2					# (親)右腿
+		POS = 0.0 -32.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 4					# 右足
+		PARENT = 3					# (親)右脛
+		POS = 0.0 -30.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 5					# 左腿
+		PARENT = 1					# (親)腰
+		POS = 8.0 -5.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 6					# 左脛
+		PARENT = 5					# (親)左腿
+		POS = 0.0 -32.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 7					# 左足
+		PARENT = 6					# (親)左脛
+		POS = 0.0 -30.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+END_ALL_PARTSSET
+
+END_SCRIPT		# この行は絶対消さないこと！

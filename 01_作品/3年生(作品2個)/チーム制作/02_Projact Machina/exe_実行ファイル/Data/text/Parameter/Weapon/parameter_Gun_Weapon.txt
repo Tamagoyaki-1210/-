@@ -1,0 +1,257 @@
+#==============================================================================
+#
+# 銃武器パラメータースクリプト
+# Author::Tanimoto Kosuke
+#
+#==============================================================================
+SCRIPT			# この行は絶対消さないこと！
+
+#------------------------------------------------------------------------------
+# パラメーター情報
+#------------------------------------------------------------------------------
+ALL_PARAM_SET
+
+	#---------------------------------------
+	# 銃武器：アサルトライフル
+	#---------------------------------------
+	JOB_PARAM_SET
+	
+		#------------------
+		# AR40
+		#------------------
+		PARAM_SET
+			POWER = 330 360 390		# 威力
+			FIRING_SPEED = 8.25		# 発射速度
+			GRAVITY = 4				# 重力
+			BULLET_SPEED = 1		# 弾速(0:遅い ～ 4:速い)
+			LIFE = 20				# 寿命
+		END_PARAM_SET
+		
+		#------------------
+		# Tec-A3
+		#------------------
+		PARAM_SET
+			POWER = 560 570 580		# 威力
+			FIRING_SPEED = 6		# 発射速度
+			GRAVITY = 4				# 重力
+			BULLET_SPEED = 1		# 弾速(0:遅い ～ 4:速い)
+			LIFE = 25				# 寿命
+		END_PARAM_SET
+		
+		#------------------
+		# DumpMan
+		#------------------
+		PARAM_SET
+			POWER = 290 320 350		# 威力
+			FIRING_SPEED = 8.75		# 発射速度
+			GRAVITY = 6				# 重力
+			BULLET_SPEED = 2		# 弾速(0:遅い ～ 4:速い)
+			LIFE = 20				# 寿命
+		END_PARAM_SET
+		
+		#------------------
+		# StarVerseAR
+		#------------------
+		PARAM_SET
+			POWER = 560 580 600		# 威力
+			FIRING_SPEED = 9.75		# 発射速度
+			GRAVITY = 3				# 重力
+			BULLET_SPEED = 2		# 弾速(0:遅い ～ 4:速い)
+			LIFE = 15				# 寿命
+		END_PARAM_SET
+		
+		#------------------
+		# MM400ジンクス
+		#------------------
+		PARAM_SET
+			POWER = 600 620 640		# 威力
+			FIRING_SPEED = 4		# 発射速度
+			GRAVITY = 7				# 重力
+			BULLET_SPEED = 1		# 弾速(0:遅い ～ 4:速い)
+			LIFE = 25				# 寿命
+		END_PARAM_SET
+
+	END_JOB_PARAM_SET
+	
+	#---------------------------------------
+	# 銃武器：サブマシンガン
+	#---------------------------------------
+	JOB_PARAM_SET
+	
+		#------------------
+		# MPC50
+		#------------------
+		PARAM_SET
+			POWER = 330 350 370		# 威力
+			FIRING_SPEED = 12.5		# 発射速度
+			GRAVITY = 3				# 重力
+			BULLET_SPEED = 4		# 弾速(0:遅い ～ 4:速い)
+			LIFE = 12				# 寿命
+		END_PARAM_SET	
+		
+		#------------------
+		# PDW-920
+		#------------------
+		PARAM_SET
+			POWER = 340 370 410		# 威力
+			FIRING_SPEED = 14		# 発射速度
+			GRAVITY = 4				# 重力
+			BULLET_SPEED = 4		# 弾速(0:遅い ～ 4:速い)
+			LIFE = 12				# 寿命
+		END_PARAM_SET
+	
+		#------------------
+		# パールSMG
+		#------------------
+		PARAM_SET
+			POWER = 390 410 450		# 威力
+			FIRING_SPEED = 10		# 発射速度
+			GRAVITY = 2				# 重力
+			BULLET_SPEED = 4		# 弾速(0:遅い ～ 4:速い)
+			LIFE = 15				# 寿命
+		END_PARAM_SET
+		
+		#------------------
+		# SilverComet
+		#------------------
+		PARAM_SET
+			POWER = 350 360 370		# 威力
+			FIRING_SPEED = 16		# 発射速度
+			GRAVITY = 1				# 重力
+			BULLET_SPEED = 4		# 弾速(0:遅い ～ 4:速い)
+			LIFE = 12				# 寿命
+		END_PARAM_SET
+		
+	END_JOB_PARAM_SET
+	
+	#---------------------------------------
+	# 銃武器：ハンドガン
+	#---------------------------------------
+	JOB_PARAM_SET
+	
+		#------------------
+		# HG37
+		#------------------
+		PARAM_SET
+			POWER = 350 370 390		# 威力
+			FIRING_SPEED = 2.5		# 発射速度
+			GRAVITY = 3				# 重力
+			BULLET_SPEED = 4		# 弾速(0:遅い ～ 4:速い)
+			LIFE = 10				# 寿命
+		END_PARAM_SET
+		
+		#------------------
+		# Revolver
+		#------------------
+		PARAM_SET
+			POWER = 300 370 440		# 威力
+			FIRING_SPEED = 2.5		# 発射速度
+			GRAVITY = 5				# 重力
+			BULLET_SPEED = 4		# 弾速(0:遅い ～ 4:速い)
+			LIFE = 10				# 寿命
+		END_PARAM_SET
+		
+		#------------------
+		# アキンボ2.0
+		#------------------
+		PARAM_SET
+			POWER = 380 400 420		# 威力
+			FIRING_SPEED = 3		# 発射速度
+			GRAVITY = 5				# 重力
+			BULLET_SPEED = 4		# 弾速(0:遅い ～ 4:速い)
+			LIFE = 10				# 寿命
+		END_PARAM_SET
+
+	END_JOB_PARAM_SET
+	
+	#---------------------------------------
+	# 銃武器：マシンガン
+	#---------------------------------------
+	JOB_PARAM_SET
+	
+		#------------------
+		# LA2000
+		#------------------
+		PARAM_SET
+			POWER = 290 340 390		# 威力
+			FIRING_SPEED = 14		# 発射速度
+			GRAVITY = 9				# 重力
+			BULLET_SPEED = 1		# 弾速(0:遅い ～ 4:速い)
+			LIFE = 12				# 寿命
+		END_PARAM_SET
+	
+		#------------------
+		# メタリカ255
+		#------------------
+		PARAM_SET
+			POWER = 290 350 410		# 威力
+			FIRING_SPEED = 11		# 発射速度
+			GRAVITY = 10			# 重力
+			BULLET_SPEED = 3		# 弾速(0:遅い ～ 4:速い)
+			LIFE = 10				# 寿命
+		END_PARAM_SET
+		
+	END_JOB_PARAM_SET
+	
+	#---------------------------------------
+	# 銃武器：ショットガン
+	#---------------------------------------
+	JOB_PARAM_SET
+	
+		#------------------
+		# 12Pump
+		#------------------
+		PARAM_SET
+			POWER = 340 390 440		# 威力
+			FIRING_SPEED = 1.75		# 発射速度
+			GRAVITY = 5				# 重力
+			BULLET_SPEED = 10		# 弾速(0:遅い ～ 4:速い)
+			LIFE = 7				# 寿命
+		END_PARAM_SET
+		
+		#------------------
+		# WR2154
+		#------------------
+		PARAM_SET
+			POWER = 420 440 460		# 威力
+			FIRING_SPEED = 1.5		# 発射速度
+			GRAVITY = 6				# 重力
+			BULLET_SPEED = 10		# 弾速(0:遅い ～ 4:速い)
+			LIFE = 7				# 寿命
+		END_PARAM_SET
+		
+	END_JOB_PARAM_SET
+	
+	#---------------------------------------
+	# 銃武器：スナイパーライフル
+	#---------------------------------------
+	JOB_PARAM_SET
+	
+		#------------------
+		# Winter5000
+		#------------------
+		PARAM_SET
+			POWER = 2800 3000 3200	# 威力
+			FIRING_SPEED = 1.1		# 発射速度
+			GRAVITY = 7				# 重力
+			BULLET_SPEED = 6		# 弾速(0:遅い ～ 4:速い)
+			LIFE = 30				# 寿命
+		END_PARAM_SET
+		
+		#------------------
+		# アテナ
+		#------------------
+		PARAM_SET
+			POWER = 4800 5000 5200	# 威力
+			FIRING_SPEED = 0.7		# 発射速度
+			GRAVITY = 10			# 重力
+			BULLET_SPEED = 8		# 弾速(0:遅い ～ 4:速い)
+			LIFE = 40				# 寿命
+		END_PARAM_SET
+
+	END_JOB_PARAM_SET
+	
+END_ALL_PARAM_SET
+
+END_SCRIPT		# この行は絶対消さないこと！
+

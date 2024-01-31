@@ -1,0 +1,142 @@
+#==============================================================================
+#
+# 『モーションビューワ』スクリプトファイル [motion_runningman.txt]
+# Author : AKIRA TANAKA
+#
+#==============================================================================
+SCRIPT			# この行は絶対消さないこと！
+
+#------------------------------------------------------------------------------
+# モデルファイル名
+#------------------------------------------------------------------------------
+MODEL_FILENAME = Data/model/Boss/Num01/Sachiel_Body.x			# [0]胴体
+MODEL_FILENAME = Data/model/Boss/Num01/Sachiel_Solder.x			# [1]左肩
+MODEL_FILENAME = Data/model/Boss/Num01/Sachiel_UpperArm.x		# [2]左上腕
+MODEL_FILENAME = Data/model/Boss/Num01/Sachiel_DownArm.x		# [3]左前腕
+MODEL_FILENAME = Data/model/Boss/Num01/Sachiel_Hand.x			# [4]左手
+MODEL_FILENAME = Data/model/Boss/Num01/Sachiel_Solder.x			# [5]右肩
+MODEL_FILENAME = Data/model/Boss/Num01/Sachiel_UpperArm.x		# [6]右上腕
+MODEL_FILENAME = Data/model/Boss/Num01/Sachiel_DownArm.x		# [7]右前腕
+MODEL_FILENAME = Data/model/Boss/Num01/Sachiel_Hand.x			# [8]右手
+MODEL_FILENAME = Data/model/Boss/Num01/Sachiel_Thighs.x			# [9]左大腿
+MODEL_FILENAME = Data/model/Boss/Num01/Sachiel_Leg.x			# [10]右脚
+MODEL_FILENAME = Data/model/Boss/Num01/Sachiel_Foot.x			# [11]右足首
+MODEL_FILENAME = Data/model/Boss/Num01/Sachiel_Thighs.x			# [12]左大腿
+MODEL_FILENAME = Data/model/Boss/Num01/Sachiel_Leg.x			# [13]右脚
+MODEL_FILENAME = Data/model/Boss/Num01/Sachiel_Foot.x			# [14]右足首
+
+#------------------------------------------------------------------------------
+# キャラクター情報
+#------------------------------------------------------------------------------
+NUM_MODEL = 15
+
+ALL_PARTSSET
+
+	PARTSSET
+		INDEX = 0					# 胴体
+		PARENT = -1					# (親)NULL
+		POS = 0.0 36.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 1					# 左肩
+		PARENT = 0					# (親)NULL
+		POS = 10.0 30.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 2					# 左上腕
+		PARENT = 1					# (親)NULL
+		POS = 4.0 -8.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 3					# 左前腕
+		PARENT = 2					# (親)NULL
+		POS = 2.0 -15.0 -1.0
+		ROT = 0.0 59.7 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 4					# 左手
+		PARENT = 3					# (親)NULL
+		POS = 1.4 -20.0 -1.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 5					# 右肩
+		PARENT = 0					# (親)NULL
+		POS = -10.0 30.0 0.0
+		ROT = 0.0 59.7 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 6					# 右上腕
+		PARENT = 5					# (親)NULL
+		POS = 4.0 -8.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 7					# 右前腕
+		PARENT = 6					# (親)NULL
+		POS = 2.0 -15.0 -1.0
+		ROT = 0.0 59.7 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 8					# 右手
+		PARENT = 7					# (親)NULL
+		POS = 1.4 -20.0 -1.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 9					# 左大腿
+		PARENT = 0					# (親)NULL
+		POS = 1.0 5.0 0.0
+		ROT = 0.0 59.7 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 10					# 左脚
+		PARENT = 9					# (親)NULL
+		POS = -5.0 -15.0 0.0
+		ROT = 0.0 59.7 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 11					# 左足
+		PARENT = 10					# (親)NULL
+		POS = 0.4 -20.0 3.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 12					# 右大腿
+		PARENT = 0					# (親)NULL
+		POS = -1.0 5.0 0.0
+		ROT = 0.0 0.00 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 13					# 右脚
+		PARENT = 12					# (親)NULL
+		POS = -5.0 -15.0 0.0
+		ROT = 0.0 0.00 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 14					# 右足
+		PARENT = 13					# (親)NULL
+		POS = 0.4 -20.0 3.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+END_ALL_PARTSSET
+	
+END_SCRIPT		# この行は絶対消さないこと！
